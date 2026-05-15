@@ -1,17 +1,1 @@
-add a widget for help and 
-implement AI PAges From where any 
-user can ask any questions AI can 
-answer it correctly and also add
- google signup page to check login 
- and when user came in Meet GuruJi
-  AI and click TRY GURUJI AI button 
-  function is to
-   open{https://harshguruji.zapier.app/}
-    and change Powered by AI to Powered 
-    By HarshGuruJi
-also implement tool/games that really
- works and named it as if add a game 
- add it features and advantages only 
- and play now button when user click 
- it open a game{create inside the button
-  click}.
+
