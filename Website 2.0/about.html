@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - HarshGuruJi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="particleCanvas"></canvas>
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="logo.png" alt="HarshGuruJi Logo" style="height: 40px; width: auto; border-radius: 5px;" />
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html#home" class="nav-link">Home</a></li>
+        <li><a href="index.html#features" class="nav-link">Features</a></li>
+        <li><a href="index.html#categories" class="nav-link">Topics</a></li>
+        <li><a href="index.html#ai" class="nav-link">GuruJi AI</a></li>
+        <li><a href="about.html" class="nav-link active">About</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-search">
+        <input type="text" id="site-search" placeholder="Search Wikipedia..." />
+        <button id="search-btn">🔍</button>
+      </div>
+      <a href="signup.html" class="btn btn-nav">Join Us</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="section page-header">
+    <div class="badge">Our Mission</div>
+    <h1 class="page-title">About <span class="gradient-text">HarshGuruJi</span></h1>
+    <p class="page-desc">Empowering learners with knowledge that inspires confidence and curiosity.</p>
+  </section>
+
+  <section class="section section-dark" style="padding-top: 0;">
+    <div class="section-container" style="max-width: 800px; margin: 0 auto; line-height: 1.8; color: var(--text-secondary); font-size: 1.1rem;">
+      <div style="background: var(--card-bg); padding: 3rem; border-radius: 20px; border: 1px solid var(--card-border); box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+        <p style="margin-bottom: 1.5rem;">At <strong>HarshGuruJi</strong>, we believe that learning should be simple, accessible, and fun. Whether you are a student, a curious individual, or someone looking to expand your horizons, our platform is designed to provide clear and reliable information.</p>
+        
+        <p style="margin-bottom: 1.5rem;">Our mission is to break down complex topics into easy-to-understand language. By integrating vast resources like Wikipedia directly into a sleek, modern, and dark-themed interface, we make reading and exploration a joy rather than a chore.</p>
+        
+        <h3 style="color: var(--text-primary); margin: 2rem 0 1rem; font-family: 'Space Grotesk', sans-serif;">What Drives Us?</h3>
+        <ul style="margin-bottom: 1.5rem; padding-left: 1.5rem; list-style-type: disc;">
+          <li style="margin-bottom: 0.5rem;"><strong style="color: var(--accent-primary);">Curiosity:</strong> We want to foster an environment where asking questions is encouraged.</li>
+          <li style="margin-bottom: 0.5rem;"><strong style="color: var(--accent-secondary);">Clarity:</strong> We avoid jargon and prioritize simple language.</li>
+          <li style="margin-bottom: 0.5rem;"><strong style="color: var(--accent-tertiary);">Innovation:</strong> From AI chat widgets to real-time calendars, we use tech to enhance learning.</li>
+        </ul>
+        
+        <p>Thank you for being part of our journey. Join us, explore the tools, interact with our GuruJi AI, and let's grow smarter every single day!</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-glow"></div>
+    <div class="footer-container">
+      <div class="footer-bottom" style="justify-content: center;">
+        <p>© 2026 HarshGuruJi – Tools & Learning Platform. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
